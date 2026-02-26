@@ -11,10 +11,6 @@
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.2.1",
-<<<<<<< HEAD
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-=======
     "autoprefixer": "^10.4.24",
     "axios": "^1.13.5",
     "chart.js": "^4.5.1",
@@ -25,7 +21,6 @@
     "react-dom": "^19.2.0",
     "react-leaflet": "^5.0.0",
     "react-router-dom": "^7.13.1",
->>>>>>> db20fe8a390d4b1106bde0492382fc61a521ca2a
     "tailwindcss": "^4.2.1"
   },
   "devDependencies": {

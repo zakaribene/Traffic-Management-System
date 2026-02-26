@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-function App(){
-  return(
-    <>
-    <div>
-      <h1 className="bg-red-500">Hello world</h1>
-    </div>
-    </>
-  )
-}export default App
-=======
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./pages/Login.jsx";
 import ReportAccident from "./pages/ReportAccident.jsx";
@@ -59,19 +48,18 @@ export default function App() {
             </PrivateRoute>
           }
         />
+
         <Route
           path="/acidents"
           element={
             <PrivateRoute role="admin">
-              <Accidents/>
+              <Accidents />
             </PrivateRoute>
           }
         />
-    
 
         <Route path="/" element={<Login />} />
       </Routes>
     </Router>
   );
 }
->>>>>>> db20fe8a390d4b1106bde0492382fc61a521ca2a
